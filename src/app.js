@@ -46,7 +46,7 @@ app.get('/subscribers/:id', async (req, res) => {
 
     res.json(subscriber);
   } catch (error) {
-    res.status(400).json({ message: error.message });
+    res.status(500).json({ message: error.message });
   }
 });
 
