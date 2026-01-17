@@ -2,6 +2,7 @@ const express = require('express')
 const app = require('./app.js')
 const mongoose = require('mongoose')
 require('dotenv').config()
+const cors = require('cors')
 const swaggerDocs = require('./swagger/swaggerDocs')
 
 // Port for running the application
