@@ -8,6 +8,7 @@ const swaggerDocs = require('./swagger/swaggerDocs')
 const port = process.env.PORT || 3000;
 
 // Parse JSON bodies (as sent by API clients)
+app.use(cors());
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }));
 

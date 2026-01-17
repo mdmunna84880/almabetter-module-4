@@ -5,6 +5,12 @@ const app = express()
 
 
 // Your code goes here
+
+// Home route
+app.get('/', (req, res) => {
+  res.send('Go to check /api-docs to see all the api.');
+});
+
 // Get all subscribers
 app.get('/subscribers', async (req, res) => {
   try {
