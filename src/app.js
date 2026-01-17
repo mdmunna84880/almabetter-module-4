@@ -5,7 +5,6 @@ const app = express()
 
 
 // Your code goes here
-
 // Get all subscribers
 app.get('/subscribers', async (req, res) => {
   try {

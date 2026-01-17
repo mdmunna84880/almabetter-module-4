@@ -9,13 +9,19 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^17.2.3",
     "express": "^4.22.1",
     "mochawesome": "^7.1.4",
-    "mongoose": "^9.1.2"
+    "mongoose": "^9.1.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
   },
   "devDependencies": {
     "chai": "^4.2.0",
     "chai-http": "^4.3.0",
     "mocha": "^11.7.5"
+  },
+  "overrides": {
+    "diff": "^8.0.3"
   }
 }
